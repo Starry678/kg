@@ -1,0 +1,222 @@
+{
+    "links": [
+        {
+            "relation": "拥有",
+            "source": "8639d3d9a05bd15c0b9371fbb8f5fc2200ab304f1ae5c98e42d1b72a73da5ac4",
+            "target": "文件类型：Win32 EXE",
+            "value": 3
+        },
+        {
+            "relation": "拥有",
+            "source": "8639d3d9a05bd15c0b9371fbb8f5fc2200ab304f1ae5c98e42d1b72a73da5ac4",
+            "target": "恶意类型：trojan.win32-exe",
+            "value": 3
+        },
+        {
+            "relation": "执行",
+            "source": "8639d3d9a05bd15c0b9371fbb8f5fc2200ab304f1ae5c98e42d1b72a73da5ac4",
+            "target": "动作名称：modify-registry-key-value",
+            "value": 3
+        },
+        {
+            "relation": "执行",
+            "source": "8639d3d9a05bd15c0b9371fbb8f5fc2200ab304f1ae5c98e42d1b72a73da5ac4",
+            "target": "动作名称：load-library",
+            "value": 3
+        },
+        {
+            "relation": "拥有",
+            "source": "18527b303c0afe91f5ae86d34b52eb29",
+            "target": "文件类型：Win32 DLL",
+            "value": 3
+        },
+        {
+            "relation": "执行",
+            "source": "18527b303c0afe91f5ae86d34b52eb29",
+            "target": "动作名称：create-kernel-object",
+            "value": 3
+        },
+        {
+            "relation": "执行",
+            "source": "18527b303c0afe91f5ae86d34b52eb29",
+            "target": "动作名称：modify-memory-property",
+            "value": 3
+        },
+        {
+            "relation": "执行",
+            "source": "18527b303c0afe91f5ae86d34b52eb29",
+            "target": "动作名称：load-library",
+            "value": 3
+        },
+        {
+            "relation": "执行",
+            "source": "18527b303c0afe91f5ae86d34b52eb29",
+            "target": "动作名称：create-file",
+            "value": 3
+        },
+        {
+            "relation": "执行",
+            "source": "18527b303c0afe91f5ae86d34b52eb29",
+            "target": "动作名称：create-process",
+            "value": 3
+        },
+        {
+            "relation": "执行",
+            "source": "18527b303c0afe91f5ae86d34b52eb29",
+            "target": "动作名称：write-to-process-memory",
+            "value": 3
+        },
+        {
+            "relation": "执行",
+            "source": "18527b303c0afe91f5ae86d34b52eb29",
+            "target": "动作名称：create-thread",
+            "value": 3
+        },
+        {
+            "relation": "执行",
+            "source": "18527b303c0afe91f5ae86d34b52eb29",
+            "target": "动作名称：modify-registry-key-value",
+            "value": 3
+        },
+        {
+            "relation": "拥有",
+            "source": "a3acf89660865a5767e73617404c74906767208030d3132b293c0606d4f9b6d4",
+            "target": "文件类型：Win32 EXE",
+            "value": 3
+        },
+        {
+            "relation": "拥有",
+            "source": "a3acf89660865a5767e73617404c74906767208030d3132b293c0606d4f9b6d4",
+            "target": "恶意类型：trojan.botnet.win32-exe",
+            "value": 3
+        },
+        {
+            "relation": "执行",
+            "source": "a3acf89660865a5767e73617404c74906767208030d3132b293c0606d4f9b6d4",
+            "target": "动作名称：load-library",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "TrickBot",
+            "target": "a3acf89660865a5767e73617404c74906767208030d3132b293c0606d4f9b6d4",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "DarkHotel",
+            "target": "18527b303c0afe91f5ae86d34b52eb29",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "TrickBot",
+            "target": "8639d3d9a05bd15c0b9371fbb8f5fc2200ab304f1ae5c98e42d1b72a73da5ac4",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "class": "恶意代码家族",
+            "group": "0",
+            "id": "TrickBot",
+            "size": "16"
+        },
+        {
+            "class": "恶意代码家族",
+            "group": "0",
+            "id": "DarkHotel",
+            "size": "16"
+        },
+        {
+            "class": "md5/hash/SHA256",
+            "group": "1",
+            "id": "8639d3d9a05bd15c0b9371fbb8f5fc2200ab304f1ae5c98e42d1b72a73da5ac4",
+            "size": "10"
+        },
+        {
+            "class": "md5/hash/SHA256",
+            "group": "1",
+            "id": "18527b303c0afe91f5ae86d34b52eb29",
+            "size": "10"
+        },
+        {
+            "class": "md5/hash/SHA256",
+            "group": "1",
+            "id": "a3acf89660865a5767e73617404c74906767208030d3132b293c0606d4f9b6d4",
+            "size": "10"
+        },
+        {
+            "class": "特征",
+            "group": "2",
+            "id": "文件类型：Win32 EXE",
+            "size": "8"
+        },
+        {
+            "class": "特征",
+            "group": "2",
+            "id": "恶意类型：trojan.win32-exe",
+            "size": "8"
+        },
+        {
+            "class": "特征",
+            "group": "2",
+            "id": "动作名称：modify-registry-key-value",
+            "size": "8"
+        },
+        {
+            "class": "特征",
+            "group": "2",
+            "id": "动作名称：load-library",
+            "size": "8"
+        },
+        {
+            "class": "特征",
+            "group": "2",
+            "id": "文件类型：Win32 DLL",
+            "size": "8"
+        },
+        {
+            "class": "特征",
+            "group": "2",
+            "id": "动作名称：create-kernel-object",
+            "size": "8"
+        },
+        {
+            "class": "特征",
+            "group": "2",
+            "id": "动作名称：modify-memory-property",
+            "size": "8"
+        },
+        {
+            "class": "特征",
+            "group": "2",
+            "id": "动作名称：create-process",
+            "size": "8"
+        },
+        {
+            "class": "特征",
+            "group": "2",
+            "id": "动作名称：write-to-process-memory",
+            "size": "8"
+        },
+        {
+            "class": "特征",
+            "group": "2",
+            "id": "动作名称：create-thread",
+            "size": "8"
+        },
+        {
+            "class": "特征",
+            "group": "2",
+            "id": "动作名称：create-file",
+            "size": "8"
+        },
+        {
+            "class": "特征",
+            "group": "2",
+            "id": "恶意类型：trojan.botnet.win32-exe",
+            "size": "8"
+        }
+    ]
+}
